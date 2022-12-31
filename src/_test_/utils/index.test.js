@@ -1,6 +1,6 @@
 import {repeatWord}  from "../../utils/index.js";
 
-test('Output a string with a given number for its repetition, which are passed in the arguments repeatWord(word, number)' () => {
+test('Output a string with a given number for its repetition, which are passed in the arguments repeatWord(word, number)', () => {
     expect(repeatWord('слово', 2)).toBe( 'слово1, слово2, ');
 });
 
